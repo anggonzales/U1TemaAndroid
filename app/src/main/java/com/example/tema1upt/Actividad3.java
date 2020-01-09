@@ -64,7 +64,19 @@ public class Actividad3 extends AppCompatActivity {
         alert.show();
     }
 
-    public void acercade (View view){
+    public void AcercaDe (View view){
         startActivity(new Intent(this, AcercaDe.class));
+    }
+
+    public void manipulacion(View view) {
+        startActivity(new Intent(this, Manipulacion.class));
+    }
+
+    public void Salir(View view){
+        finish();
+    }
+
+    public void comunicacion1(View view) {
+        startActivity(new Intent(this, Comunicacion1.class));
     }
 }
